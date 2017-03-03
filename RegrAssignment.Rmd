@@ -54,7 +54,7 @@ grid.arrange(
   pBox4,
   ncol = 4
 )
-
+# Hej Niels
 g <- ggplot(data = motorcycle)
 
 g + geom_smooth(aes(x = age, y = duration))
